@@ -1,0 +1,40 @@
+* {
+  outline: 1px solid #000;
+}
+body {
+  padding: 50px;
+}
+.clearfloat {
+  clear: both;
+}
+#header {
+  overflow: hidden;
+}
+#header div {
+  float: left;
+}
+#header #logo {
+  width: 270px;
+}
+#header #address,
+#header #contact {
+  top: 90px;
+  width: 180px;
+  position: relative;
+}
+#menu {
+  margin-top: 90px;
+}
+#menu ul {
+  width: 270px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+#menu #intro {
+  font-size: 20px;
+  font-family: "proxima-nova";
+  float: left;
+  width: 450px;
+}
